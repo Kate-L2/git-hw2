@@ -14,7 +14,7 @@ a {
     color: black;
     font-size: 2rem;
     padding: 20px;
-    border: 1px dashed black;
+    border: 1px dashed red;
     text-align: center;
 }
 .header__link {
