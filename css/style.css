@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    margin: 10px;
+}
 a {
     color: inherit;
     text-decoration: none;
@@ -11,7 +14,6 @@ a {
     color: black;
     font-size: 2rem;
     padding: 20px;
-    margin: 10px;
     border: 1px dashed black;
     text-align: center;
 }
@@ -20,4 +22,20 @@ a {
 }
 .header__link:hover {
     color: peru;
+}
+.main {
+    margin-top: 15px;
+}
+.main__list {
+}
+.main__item {
+    transition: all .5s ease-in-out;
+}
+.main__item:not(:last-child) {
+    margin-bottom: 5px;
+}
+.main__item:hover {
+    color: darkcyan;
+}
+.main__link {
 }
