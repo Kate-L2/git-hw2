@@ -5,7 +5,19 @@
 }
 a {
     color: inherit;
-}
-a:hover {
     text-decoration: none;
+}
+.header {
+    color: black;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 10px;
+    border: 1px dashed black;
+    text-align: center;
+}
+.header__link {
+    transition: all .5s ease-in-out;
+}
+.header__link:hover {
+    color: peru;
 }
